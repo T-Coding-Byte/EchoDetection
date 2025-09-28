@@ -28,8 +28,15 @@ The data pipeline consists of the following:
     2. project onto user-user graph
     3. Detect communities using Leiden algorithm
 3. Metric Computation
-    - Assortivity, Modularity, Sentiment Skew, Transitivity
+    - **Degree Assortivity:** tests if high degree (very active) users interact more with other high degree users. 
+    - **Sentiment Skew:**  Shows whether the overall converation is heavily tilted towards positive or negative sentiment
+    - **Sentiment Assortivity:** tests if users tend to interact more with others who share the same sentiment. 
+    - **Modularity:** quantifies how strongly the graph splits into tight sub communities. 
+    - **Transitivity:** fraction of user triplets that are all connected, showing how tightly users interact with each other.
 4. Visualisations
     - Spider plots, Community graphs, Histograms, Bar Chars
 
 ## Results/Visualisations
+
+#### The following example visualisations are from r/NintendoSwitch
+![alt text](image.png)
