@@ -98,7 +98,6 @@ Metrics are calculated from a subset of posts and comments (e.g 100-200 recent p
     6. 'about url' can be anything
     7. 'redirect url' put in http://localhost:8080
     8. You should be presented with your client id and client secret
-
 5. create a praw.ini file with the following format
     ```ini
     [project]
@@ -110,4 +109,14 @@ Metrics are calculated from a subset of posts and comments (e.g 100-200 recent p
     ```
     - username and poassword are your reddit username and password here
     - useragent should be "project-name:echo (by /u/yourusername)" (input your reddit username here)
-    
+6. Run 01_data_collection.ipynb, and input the name of your desired subreddit, (this is case and spelling sensitive)
+7. Once 01_data_collection.ipynb is done, run 02_network_analysis.ipynb and once that finishes run 03_visualisations.ipynb for your visualisations and metrics
+
+## Possible Extensions
+- Extend analysis accross multiple subreddits sharing a topic at once for cross community comparisons. 
+- Experiment/fine tune with more advanced NLP models for for sarcasm.
+- Explore Scalability for very large subreddits without heavy throttling.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
