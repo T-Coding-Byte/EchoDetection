@@ -78,6 +78,7 @@ Sentiment analysis may misinterpret sarcastic or humerous posts, common on subre
 Metrics are calculated from a subset of posts and comments (e.g 100-200 recent posts), not the entire subreddit history. This means they approximate the echo chamber effect rather than capturing full, long-term interaction patterns.
 
 ## -Installation/Usage
+* Nvidia GPU or Apple silicon highly reccomended to run this code
 1. Make sure you have **Python 3.10+** installed
 2. clone the repository:
     ```
