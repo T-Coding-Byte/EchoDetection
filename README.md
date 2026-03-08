@@ -37,7 +37,7 @@ The data pipeline consists of the following:
     - **Modularity:** quantifies how strongly the graph splits into tight sub communities. 
     - **Transitivity:** fraction of user triplets that are all connected, showing how tightly users interact with each other.
 4. Visualisations
-    - Spider plots, Community graphs, Histograms, Bar Chars
+    - Spider plots, Community graphs, Histograms, Bar Charts
 
 ## Results/Visualisations
 
