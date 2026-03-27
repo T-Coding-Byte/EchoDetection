@@ -1,4 +1,4 @@
-# Echo Chamber Index for Reddit Communities
+# Graph-Based Echo Chamber Detection in Online Communities
 
 This project analyses Reddit communities using network and sentiment analysis to measure the extent of echo chambers.
 
